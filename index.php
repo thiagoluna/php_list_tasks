@@ -1,6 +1,6 @@
 <?php
 	$acao = 'recuperarTarefasPendentes';
-	require($_SERVER['DOCUMENT_ROOT'].'/app_lista_tarefas/controller/tarefa_controller.php');	
+	require($_SERVER['DOCUMENT_ROOT'].'/php_list_tasks/controller/tarefa_controller.php');	
 ?>
 
 <html>

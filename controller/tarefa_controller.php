@@ -1,7 +1,7 @@
 <?php
-	require($_SERVER['DOCUMENT_ROOT'].'/app_lista_tarefas/model/tarefa.class.php');	
-	require($_SERVER['DOCUMENT_ROOT'].'/app_lista_tarefas/model/tarefa.service.class.php');	
-	require($_SERVER['DOCUMENT_ROOT'].'/app_lista_tarefas/bd/conexao.php');	
+	require($_SERVER['DOCUMENT_ROOT'].'/php_list_tasks/model/tarefa.class.php');	
+	require($_SERVER['DOCUMENT_ROOT'].'/php_list_tasks/model/tarefa.service.class.php');	
+	require($_SERVER['DOCUMENT_ROOT'].'/php_list_tasks/bd/conexao.php');	
 
 	$acao = isset($_GET['acao']) ? $_GET['acao'] : $acao;
 
